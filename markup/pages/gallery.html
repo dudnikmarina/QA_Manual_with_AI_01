@@ -1,40 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-        </ul>
-    </header>
-    <main>
-        <section>
+    <div class="wrapper">
+        <header class="header">
             <div class="container">
-                <div class="gallery">
-                    <div>
-                        <img src="../photos/img-01.jpg" alt="image description">
-                    </div>
-                    <div>
-                        <img src="../photos/img-02.jpg" alt="image description">
-                    </div>
-                    <div>
-                        <img src="../photos/img-03.jpg" alt="image description">
-                    </div>
-                    <div>
-                        <img src="../photos/img-04.jpg" alt="image description">
-                    </div>
-                    <div>
-                        <img src="../photos/img-05.jpg" alt="image description">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </header>
+        <main id="main">
+            <section class="section">
+                <div class="container">
+                    <div class="gallery">
+                        <div class="gallery-item">
+                            <img src="../photos/img-01.jpg" alt="image description">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="../photos/img-02.jpg" alt="image description">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="../photos/img-03.jpg" alt="image description">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="../photos/img-04.jpg" alt="image description">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="../photos/img-05.jpg" alt="image description">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="../photos/img-01.jpg" alt="image description">
+                        </div>
                     </div>
                 </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <p>Footer</p>
             </div>
-        </section>
-    </main>
+        </footer>
+    </div>
 </body>
 </html>
