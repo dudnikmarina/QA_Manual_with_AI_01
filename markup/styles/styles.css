@@ -68,18 +68,6 @@ p {
     top: 0;
 }
 
-.footer {
-    padding: 20px 0;
-    background-color: #ccd4f1;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.footer .container >*:last-child {
-    margin-bottom: 0;
-}
-
 .header ul {
     list-style: none;
     padding: 0;
@@ -98,12 +86,23 @@ p {
     transition: all .3s ease-out;
     text-underline-offset: 3px;
     text-decoration-thickness: 2px;
-
 }
 
-.header a:hover{
+.header a:hover {
      text-decoration-color: inherit;
      color: #6c007c;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #ccd4f1;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer .container >*:last-child {
+    margin-bottom: 0;
 }
 
 .contact-list {
